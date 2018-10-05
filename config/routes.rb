@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :friends
   get 'welcome/index'
   resources :articles
   root 'welcome#index'
